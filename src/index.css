@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff5e8;
+}
+
+.card.upload-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px 28px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.mochi-preview {
+  background: #ffe3f0;
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.mochi-face {
+  font-size: 1.6rem;
+}
+
+.mochi-text {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.file-label {
+  display: block;
+  background: #fdf6ff;
+  border-radius: 16px;
+  padding: 12px 16px;
+  border: 1px dashed #e0c8ff;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.file-label-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.file-input {
+  display: none;
+}
+
+.primary-btn {
+  background: #ffc7e0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.primary-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.error-text {
+  color: #d9534f;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.hint-text {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #888;
+}
+
