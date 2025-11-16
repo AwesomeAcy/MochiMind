@@ -1,4 +1,4 @@
--- MochiMind Full Database Script
+-- MochiMind
 -- Create Database
 CREATE DATABASE IF NOT EXISTS mochimind;
 USE mochimind;
