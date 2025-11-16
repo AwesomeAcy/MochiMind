@@ -6,4 +6,4 @@ See `docs/` for project documentation.
 
 Team:
 - Christine (Frontend, Branding)
-- Roro (Backend, AI)
+- Rawan (Backend, AI)
